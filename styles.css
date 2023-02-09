@@ -1,0 +1,72 @@
+*
+{
+  margin: 0px;
+  padding: 0px;  
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 100px;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+body header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+body header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap:  40px;
+}
+
+body header nav ul a{
+    text-decoration: none;
+    color: rgb(241, 172, 45);
+}
+
+button{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px rgb(254, 84, 112);
+    background-color: rgb(254, 84, 112);
+    color: white;
+    font-size: 40px;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(254, 84, 112);
+    border: 2px solid black;
+}
+
+body main section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body main section h1{
+    font-size: 70px;
+    font-weight: 700;
+    color: rgb(241, 172, 45)
+}
+
+body main div{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
